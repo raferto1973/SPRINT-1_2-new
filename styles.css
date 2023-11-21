@@ -11443,11 +11443,79 @@ textarea.form-control-lg {
   z-index: -1;
 }
 
-@media only screen and (max-width: 992px) {
+.nav-tabs {
+  border-left-color: white;
+  border-right-color: unset;
+  border-top-color: unset;
+}
+
+.custom-tab {
+  border-bottom: grey solid 1px;
+}
+
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+  color: black;
+  border-left-color: white;
+  border-right-color: white;
+  border-top-color: white;
+  border-bottom: #FA5959 solid 5px;
+}
+
+.nav-link:hover, .nav-link:focus {
+  color: black;
+  font-weight: bold;
+}
+
+.imagen-mancha-reves {
+  max-width: auto;
+  position: relative;
+  z-index: 1;
+}
+
+.mancha-reves {
+  width: 700px;
+  height: 250px;
+  position: absolute;
+  left: -325px;
+  bottom: 0;
+  border-top-right-radius: 9999px;
+  border-bottom-right-radius: 9999px;
+  background-color: #5265E1;
+  z-index: -1;
+}
+
+@media only screen and (max-width: 768px) {
   .nav {
     flex-direction: column;
     margin: 0 50px 0 50px;
     padding: 0 20px;
+  }
+  .custom-tab-sup {
+    border-top: grey solid 1px;
+  }
+  .mancha-reves {
+    width: 618px;
+    height: 175px;
+    position: absolute;
+    left: -398px;
+    bottom: 25px;
+    border-top-right-radius: 9999px;
+    border-bottom-right-radius: 9999px;
+    background-color: #5265E1;
+    z-index: -1;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .mancha-reves {
+    width: 618px;
+    height: 175px;
+    position: absolute;
+    left: -398px;
+    bottom: 0px;
+    border-top-right-radius: 9999px;
+    border-bottom-right-radius: 9999px;
+    background-color: #5265E1;
+    z-index: -1;
   }
 }
 @media only screen and (min-width: 993px) {
