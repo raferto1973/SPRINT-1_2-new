@@ -3690,7 +3690,7 @@ textarea.form-control-lg {
 .navbar {
   --bs-navbar-padding-x: 0;
   --bs-navbar-padding-y: 0.5rem;
-  --bs-navbar-color: rgb(242, 242, 242);
+  --bs-navbar-color: rgba(var(--bs-emphasis-color-rgb), 0.65);
   --bs-navbar-hover-color: rgba(var(--bs-emphasis-color-rgb), 0.8);
   --bs-navbar-disabled-color: rgba(var(--bs-emphasis-color-rgb), 0.3);
   --bs-navbar-active-color: rgba(var(--bs-emphasis-color-rgb), 1);
@@ -11420,6 +11420,11 @@ textarea.form-control-lg {
   color: black;
 }
 
+.bg-body-tertiary {
+  --bs-bg-opacity: 1;
+  background-color: rgb(254, 254, 254) !important;
+}
+
 .custom-button-card-black {
   --bs-btn-bg: rgb(247, 247, 247);
   --bs-btn-color: black;
@@ -11505,6 +11510,37 @@ hr.dotted {
   background-color: white;
 }
 
+.footer-custom {
+  background-color: #5265E1;
+  height: auto;
+}
+
+.text-footer-custom {
+  color: white;
+}
+
+.form-control {
+  display: flex;
+  width: 40%;
+  margin-left: 65%;
+}
+
+.contactus {
+  margin-right: 55%;
+}
+
+.custom-footer-nav {
+  background-color: black;
+  color: white;
+}
+
+.link-custom {
+  text-decoration: none;
+  color: white;
+  font-size: small;
+  justify-content: flex-start;
+}
+
 @media only screen and (max-width: 768px) {
   .nav {
     flex-direction: column;
@@ -11529,6 +11565,20 @@ hr.dotted {
     height: 1400px;
   }
 }
+@media only screen and (min-width: 993px) {
+  .nav {
+    margin: 0 15%;
+  }
+  .cutom-cards {
+    height: 600px;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .menu-footer {
+    display: block;
+    justify-content: center;
+  }
+}
 @media only screen and (max-width: 1200px) {
   .mancha-reves {
     width: 618px;
@@ -11540,13 +11590,5 @@ hr.dotted {
     border-bottom-right-radius: 9999px;
     background-color: #5265E1;
     z-index: -1;
-  }
-}
-@media only screen and (min-width: 993px) {
-  .nav {
-    margin: 0 15%;
-  }
-  .cutom-cards {
-    height: 600px;
   }
 }/*# sourceMappingURL=styles.css.map */
