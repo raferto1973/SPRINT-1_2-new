@@ -1,17 +1,43 @@
 // COLORS OVERRIDE
+$primary: #5265E1;
+$secondary: #FA5959;
 
+$theme-colors: (
+  "primary": $primary,
+  "secondary": $secondary,
+);
 // COLORS OVERRIDE
 
-
-
-
-
-
-
-
-
-
+$navbar-light-color: lightgrey;
 
 // IMPORT BOOTSTRAP
-@import "./node_modules/bootstrap/scss/bootstrap.scss"
+@import "./node_modules/bootstrap/scss/bootstrap.scss";
 // IMPORT BOOTSTRAP
+
+
+// PERSONALIZACION
+
+// BARRA NAVEGACION
+.log-button{
+    --bs-btn-color: white;
+}
+.nav-link{
+    color: black;
+}
+// BARRA NAVEGACION
+
+
+@media only screen and (max-width:992px){
+    .nav{
+        flex-direction: column;
+        margin: 0 50px 0 50px; 
+        padding: 0 20px; 
+    }
+}
+
+@media only screen and (min-width:993px){
+    .nav{   
+      margin: 0 15%;   
+    } 
+}
+// PERSONALIZACION
