@@ -11484,6 +11484,22 @@ textarea.form-control-lg {
   z-index: -1;
 }
 
+.card-img, .card-img-top, .card-img-bottom {
+  width: 40%;
+}
+
+hr.dotted {
+  border-top: 5px dotted #999;
+}
+
+.custom-button-card {
+  --bs-btn-hover-bg: white;
+  --bs-btn-hover-border-color: #5265E1;
+  --bs-btn-color: white;
+  --bs-btn-active-color: white;
+  --bs-btn-hover-color: #5265E1;
+}
+
 @media only screen and (max-width: 768px) {
   .nav {
     flex-direction: column;

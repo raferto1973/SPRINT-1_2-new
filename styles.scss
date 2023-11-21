@@ -86,10 +86,26 @@ $navbar-light-color: rgb(242, 242, 242);
     background-color: #5265E1;
     z-index: -1;
 }
-
-
 // FEATURES
 
+// DOWNLOADS
+.card-img, .card-img-top, .card-img-bottom {
+    width: 40%;
+  
+  }
+  
+hr.dotted {
+border-top: 5px dotted #999;
+}
+
+.custom-button-card {
+--bs-btn-hover-bg: white;
+--bs-btn-hover-border-color: #5265E1;
+--bs-btn-color: white;
+--bs-btn-active-color: white;
+--bs-btn-hover-color: #5265E1;
+}
+// DOWNLOADS
 
 
 
