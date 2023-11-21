@@ -32,6 +32,23 @@ $navbar-light-color: rgb(242, 242, 242);
     --bs-btn-color: black;
 }
 
+.imagen-mancha {
+  max-width: auto;
+  position: relative;
+  z-index: 1;
+}
+.mancha{
+    width:600px;
+    height: 250px;
+    position: absolute;
+    left: 130px;
+    bottom: 0;
+    border-top-left-radius: 9999px;
+    border-bottom-left-radius: 9999px;
+    background-color: $primary;
+    z-index: -1;
+}
+
 // PAGINA PRINCIPAL
 
 @media only screen and (max-width:992px){
@@ -39,9 +56,9 @@ $navbar-light-color: rgb(242, 242, 242);
         flex-direction: column;
         margin: 0 50px 0 50px; 
         padding: 0 20px; 
-    }
-    
+    }  
 }
+
 
 @media only screen and (min-width:993px){
     .nav{   
