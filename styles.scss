@@ -8,7 +8,7 @@ $theme-colors: (
 );
 // COLORS OVERRIDE
 
-$navbar-light-color: lightgrey;
+$navbar-light-color: rgb(242, 242, 242);
 
 // IMPORT BOOTSTRAP
 @import "./node_modules/bootstrap/scss/bootstrap.scss";
@@ -26,6 +26,13 @@ $navbar-light-color: lightgrey;
 }
 // BARRA NAVEGACION
 
+// PAGINA PRINCIPAL
+.custom-button-card-black{
+    --bs-btn-bg: rgb(247, 247, 247); 
+    --bs-btn-color: black;
+}
+
+// PAGINA PRINCIPAL
 
 @media only screen and (max-width:992px){
     .nav{
@@ -33,6 +40,7 @@ $navbar-light-color: lightgrey;
         margin: 0 50px 0 50px; 
         padding: 0 20px; 
     }
+    
 }
 
 @media only screen and (min-width:993px){
