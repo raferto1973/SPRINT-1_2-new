@@ -8,7 +8,17 @@ $theme-colors: (
 );
 // COLORS OVERRIDE
 
+
+// NAVBAR OVERRIDE
 $navbar-light-color: rgb(242, 242, 242);
+// NAVBAR OVERRIDE
+
+
+// ACCORDION OVERRIDE
+$accordion-button-active-icon:  url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23FA5959'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+$accordion-button-icon:  url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%235265E1'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+// ACCORDION OVERRIDE
+
 
 // IMPORT BOOTSTRAP
 @import "./node_modules/bootstrap/scss/bootstrap.scss";
@@ -108,6 +118,13 @@ border-top: 5px dotted #999;
 // DOWNLOADS
 
 
+// ACCORDION
+.accordion-button:not(.collapsed) {
+    color: $secondary;
+    background-color: white;  
+}
+// ACCORDION
+
 
 // RESPONSIVE
 @media only screen and (max-width:768px){
@@ -130,6 +147,9 @@ border-top: 5px dotted #999;
         background-color: #5265E1;
         z-index: -1;
     }
+    .cutom-cards{
+        height: 1400px;
+    }  
 }
 @media only screen and (max-width:1200px){
     .mancha-reves {
@@ -143,11 +163,15 @@ border-top: 5px dotted #999;
         background-color: #5265E1;
         z-index: -1;
     }
+       
 }
 @media only screen and (min-width:993px){
     .nav{   
       margin: 0 15%;   
     } 
+    .cutom-cards{
+        height: 600px;
+    }  
    
 }
 // RESPONSIVE
