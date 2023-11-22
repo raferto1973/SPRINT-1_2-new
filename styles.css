@@ -11425,9 +11425,26 @@ textarea.form-control-lg {
   background-color: rgb(254, 254, 254) !important;
 }
 
+.log-button:hover {
+  color: #FA5959;
+  background-color: white;
+  border-color: #FA5959;
+}
+
+.nav-menu:hover {
+  color: #FA5959;
+}
+
 .custom-button-card-black {
   --bs-btn-bg: rgb(247, 247, 247);
   --bs-btn-color: black;
+}
+
+.btn-secondary {
+  --bs-btn-bg: rgb(185, 182, 182);
+  --bs-btn-border-color: rgb(185, 182, 182);
+  --bs-btn-hover-border-color: grey;
+  --bs-btn-hover-bg:white;
 }
 
 .imagen-mancha {
@@ -11467,7 +11484,7 @@ textarea.form-control-lg {
 }
 
 .nav-link:hover, .nav-link:focus {
-  color: black;
+  color: #FA5959;
   font-weight: bold;
 }
 
@@ -11539,6 +11556,22 @@ hr.dotted {
   color: white;
   font-size: small;
   justify-content: flex-start;
+}
+
+.link-custom-footer:hover {
+  color: #FA5959;
+  font-weight: bold;
+}
+
+.icon-custom {
+  --body-color: red;
+}
+
+.btn-secondary.contactus {
+  --bs-btn-bg: red;
+  --bs-btn-border-color: rgb(185, 182, 182);
+  --bs-btn-hover-border-color: grey;
+  --bs-btn-hover-bg:white;
 }
 
 @media only screen and (max-width: 768px) {

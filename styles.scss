@@ -9,6 +9,7 @@ $theme-colors: (
 // COLORS OVERRIDE
 
 
+
 // ACCORDION OVERRIDE
 $accordion-button-active-icon:  url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23FA5959'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
 $accordion-button-icon:  url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%235265E1'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
@@ -33,12 +34,27 @@ $accordion-button-icon:  url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org
     --bs-bg-opacity: 1;
     background-color: rgb(254, 254, 254)!important;
 }
+.log-button:hover {
+    color: $secondary;
+    background-color: white;
+    border-color: $secondary;
+}
+.nav-menu:hover{
+    color: $secondary;
+}
+
 // BARRA NAVEGACION
 
 // PAGINA PRINCIPAL
 .custom-button-card-black{
     --bs-btn-bg: rgb(247, 247, 247); 
     --bs-btn-color: black;
+}
+.btn-secondary{
+    --bs-btn-bg: rgb(185, 182, 182); 
+    --bs-btn-border-color: rgb(185, 182, 182); 
+    --bs-btn-hover-border-color: grey;
+    --bs-btn-hover-bg:white;
 }
 
 .imagen-mancha {
@@ -76,7 +92,7 @@ $accordion-button-icon:  url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org
     border-bottom: $secondary solid 5px;
 }
 .nav-link:hover, .nav-link:focus {
-    color: black;
+    color: $secondary;
     font-weight: bold;
 }
 .imagen-mancha-reves {
@@ -122,6 +138,7 @@ border-top: 5px dotted #999;
     color: $secondary;
     background-color: white;  
 }
+
 // FAQs
 
 
@@ -146,12 +163,25 @@ border-top: 5px dotted #999;
     color: white;   
     
 }
-
 .link-custom{
     text-decoration: none;
     color: white;
     font-size: small;
-    justify-content: flex-start
+    justify-content: flex-start;
+}
+.link-custom-footer:hover{    
+    color: $secondary;
+    font-weight: bold;    
+}
+.icon-custom{
+   --body-color: red; 
+}
+
+.btn-secondary.contactus{
+    --bs-btn-bg: red; 
+    --bs-btn-border-color: rgb(185, 182, 182); 
+    --bs-btn-hover-border-color: grey;
+    --bs-btn-hover-bg:white;
 }
 
 // FOOTER
