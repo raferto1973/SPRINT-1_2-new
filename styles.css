@@ -11527,6 +11527,10 @@ hr.dotted {
   background-color: white;
 }
 
+.border-accordion {
+  border-top: #dddddd solid 0.1px;
+}
+
 .footer-custom {
   background-color: #5265E1;
   height: auto;
