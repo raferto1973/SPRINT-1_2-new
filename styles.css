@@ -11457,7 +11457,7 @@ textarea.form-control-lg {
   width: 600px;
   height: 250px;
   position: absolute;
-  left: 130px;
+  left: 150px;
   bottom: 0;
   border-top-left-radius: 9999px;
   border-bottom-left-radius: 9999px;
@@ -11495,10 +11495,10 @@ textarea.form-control-lg {
 }
 
 .mancha-reves {
-  width: 700px;
+  width: 500px;
   height: 250px;
   position: absolute;
-  left: -325px;
+  left: -125px;
   bottom: 0;
   border-top-right-radius: 9999px;
   border-bottom-right-radius: 9999px;
@@ -11589,13 +11589,24 @@ hr.dotted {
     border-top: grey solid 1px;
   }
   .mancha-reves {
-    width: 618px;
+    width: 418px;
     height: 175px;
     position: absolute;
-    left: -398px;
+    left: -100px;
     bottom: 25px;
     border-top-right-radius: 9999px;
     border-bottom-right-radius: 9999px;
+    background-color: #5265E1;
+    z-index: -1;
+  }
+  .mancha {
+    width: 600px;
+    height: 250px;
+    position: absolute;
+    left: 130px;
+    bottom: 0;
+    border-top-left-radius: 9999px;
+    border-bottom-left-radius: 9999px;
     background-color: #5265E1;
     z-index: -1;
   }
