@@ -152,17 +152,18 @@ border-top: 5px dotted #999;
 }
 .form-control {   
     display: flex; 
-    width: 70%;
+    width: 40%;
     margin-left: 70%;    
 }
 .contactus{
     margin-right: 55%;
 }
-.custom-footer-nav{
+.footer-menu{
+    display: flex;
     background-color: black;
-    color: white;   
-    
+    color: rgb(211, 211, 211);
 }
+
 .link-custom{
     text-decoration: none;
     color: white;
@@ -209,6 +210,11 @@ border-top: 5px dotted #999;
     }
     .cutom-cards{
         height: 1400px;
+    }
+    .form-control {   
+        flex-direction: column;
+        width: auto;
+        margin: 0 auto;    
     }  
 }
 @media only screen and (min-width:993px){
@@ -224,6 +230,9 @@ border-top: 5px dotted #999;
         display: block;
         justify-content: center;
     }
+    .footer-menu{
+        display: block;        
+    } 
 }
 @media only screen and (max-width:1200px){
     .mancha-reves {
@@ -236,7 +245,8 @@ border-top: 5px dotted #999;
         border-bottom-right-radius: 9999px;
         background-color: #5265E1;
         z-index: -1;
-    }       
+    } 
+       
 }
 // RESPONSIVE
 

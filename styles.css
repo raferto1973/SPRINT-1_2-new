@@ -11539,16 +11539,17 @@ hr.dotted {
 .form-control {
   display: flex;
   width: 40%;
-  margin-left: 65%;
+  margin-left: 70%;
 }
 
 .contactus {
   margin-right: 55%;
 }
 
-.custom-footer-nav {
+.footer-menu {
+  display: flex;
   background-color: black;
-  color: white;
+  color: rgb(211, 211, 211);
 }
 
 .link-custom {
@@ -11597,6 +11598,11 @@ hr.dotted {
   .cutom-cards {
     height: 1400px;
   }
+  .form-control {
+    flex-direction: column;
+    width: auto;
+    margin: 0 auto;
+  }
 }
 @media only screen and (min-width: 993px) {
   .nav {
@@ -11610,6 +11616,9 @@ hr.dotted {
   .menu-footer {
     display: block;
     justify-content: center;
+  }
+  .footer-menu {
+    display: block;
   }
 }
 @media only screen and (max-width: 1200px) {
