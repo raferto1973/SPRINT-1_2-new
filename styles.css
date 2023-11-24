@@ -11454,11 +11454,12 @@ textarea.form-control-lg {
 }
 
 .mancha {
-  width: 600px;
+  width: 100%;
   height: 250px;
   position: absolute;
   left: 150px;
-  bottom: 0;
+  right: 0px;
+  bottom: 0px;
   border-top-left-radius: 9999px;
   border-bottom-left-radius: 9999px;
   background-color: #5265E1;
