@@ -11454,10 +11454,9 @@ textarea.form-control-lg {
 }
 
 .mancha {
-  width: 100%;
   height: 250px;
   position: absolute;
-  left: 150px;
+  left: 228px;
   right: 0px;
   bottom: 0px;
   border-top-left-radius: 9999px;
@@ -11580,6 +11579,12 @@ hr.dotted {
   --bs-btn-hover-bg:white;
 }
 
+.invalid-tooltip, .valid-tooltip {
+  margin-left: 68%;
+  color: white;
+  background-color: #FA5959;
+}
+
 @media only screen and (max-width: 768px) {
   .nav {
     flex-direction: column;
@@ -11601,7 +11606,6 @@ hr.dotted {
     z-index: -1;
   }
   .mancha {
-    width: 600px;
     height: 250px;
     position: absolute;
     left: 130px;
@@ -11619,6 +11623,12 @@ hr.dotted {
     width: auto;
     margin: 0 auto;
   }
+  .invalid-tooltip, .valid-tooltip {
+    margin-left: 32%;
+  }
+  .contactus {
+    margin-top: 20px;
+  }
 }
 @media only screen and (min-width: 993px) {
   .nav {
@@ -11635,6 +11645,9 @@ hr.dotted {
   }
   .footer-menu {
     display: block;
+  }
+  .invalid-tooltip, .valid-tooltip {
+    font-size: 60%;
   }
 }
 @media only screen and (max-width: 1200px) {
