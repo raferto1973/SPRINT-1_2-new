@@ -41,7 +41,7 @@ project/
 
 ## 🚀 Getting Started
 
-1. **Clone the repository**: Use `git clone [repository URL]` to get a local copy.
+1. **Clone the repository**: Use `git clone https://github.com/raferto1973/SPRINT-1_2-IT_ACADEMY` to get a local copy.
 2. **Install dependencies**: Navigate to the project folder and run `npm install` to install Bootstrap and other necessary dependencies.
 3. **Open `index.html`**: Use a browser to view the project.
 
